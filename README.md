@@ -30,12 +30,18 @@ The project is still under development. The current version includes the guide u
 - In the present release it is possibile to perform single shot or continous acquisition with measurement system equiped with two PXI-5922 boards configured for pseudo-differential measurements for pure and distorted waveforms. The part related to DMMs 3458A is still under development.
 <img src="./img/GUI_HW_Control.png">
 
-- Compute off-line data using the TWM Matlab to CVI interface
+- Off-line data processing (only for TPQA release under LabWindows/CVI environment) using the Matlab to CVI interface based on [TWM](https://github.com/smaslan/TWM) modularity concept. 
 <img src="./img/GUI_Matlab_CVI.png">
 
-- Compute on-line data analysis in the frequancy domain using the Advanced Analysis Library provided by LabWindows/CVI. 
+- On-line processing of recorded data and analysis in the frequency domain using the Advanced Analysis Library provided by LabWindows/CVI. 
 <img src="./img/GUI_2.png">
 
 
+## Download
+
+Here you can download build only:
+
+## License
+The TPQA is distributed under [MIT license](./LICENSE.txt). Note the algorithms in the QWTB toolbox may have different licenses.
 
 
