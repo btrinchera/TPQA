@@ -28,7 +28,7 @@ band.
  - Synchronized [HP/Agilent/Keysight3458A](https://www.keysight.com/en/pd-1000001297%3Aepsg%3Apro-pn-3458A/digital-multimeter-8-digit?cc=US&lc=eng)
 configured as  digitizer by making DC voltage measurements, by direct-sampling, or by sub-sampling.
 
-The off-line calculation of Power and PQ electric parameters is performed by the [QWTB](https://qwtb.github.io/qwtb/)
+The off-line calculation of elecytrical Power and PQ parameters is performed by the [QWTB](https://qwtb.github.io/qwtb/)
 toolbox. A list of supported algorithms can be found in the [report A2.4.4 - Algorithms Description](https://github.com/smaslan/TWM/blob/master/doc/A244%20Algorithms%20description.pdf).
 
 
