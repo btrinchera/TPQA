@@ -9,7 +9,7 @@ building of metrology grade measurement system to ensure reliable and traceable 
 only restricted to power and energy area, but it can be used in experiments which require simultaneous measurement of complex voltage and current
 waveforms.
 
-It has been developed using an ANSI c development environment such as [LabWindows/CVI](www.ni.com/lwcvi/), and  its  modular
+It has been developed using an ANSI c development environment such as [LabWindows/CVI](http://www.ni.com/lwcvi/i/), and  its  modular
 structure is based on the following components:
 
  - Guide user interface (GUI) that hosts a control and data acquisition module optimized
