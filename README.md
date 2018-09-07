@@ -14,7 +14,6 @@ structure is based on the following components:
 
  - Guide user interface (GUI) that hosts a control and data acquisition module optimized
 to operate with different hardware platforms.
-
  - Data processing module that allows to interact with the calculation scripts using
 the [Matlab](https://uk.mathworks.com/products/matlab.html)
 engine or through Measurement library on the development environment for
@@ -26,7 +25,6 @@ TPQA handles the following digitizers using suitable drivers as:
 drivers for control of single or multiple PXI-5922 24-bit flexible resolution
 digitizer whose bandwidth falls within the medium frequency (MF) of radio frequency
 band.
-
  - Synchronized [HP/Agilent/Keysight3458A](https://www.keysight.com/en/pd-1000001297%3Aepsg%3Apro-pn-3458A/digital-multimeter-8-digit?cc=US&lc=eng)
 configured as  digitizer by making DC voltage measurements, by direct-sampling, or by sub-sampling.
 
