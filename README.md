@@ -9,15 +9,12 @@ building of metrology grade measurement system to ensure reliable and traceable 
 only restricted to power and energy area, but it can be used in experiments which require simultaneous measurement of complex voltage and current
 waveforms.
 
-It has been developed using an ANSI c development environment such as [LabWindows/CVI](http://www.ni.com/lwcvi/i/), and  its  modular
+It has been developed using an ANSI c development environment such as [LabWindows/CVI](http://www.ni.com/lwcvi/whatis/hardware/), and  its  modular
 structure is based on the following components:
 
- - Guide user interface (GUI) that hosts a control and data acquisition module optimized
-to operate with different hardware platforms.
- - Data processing module that allows to interact with the calculation scripts using
-the [Matlab](https://uk.mathworks.com/products/matlab.html)
-engine or through Measurement library on the development environment for
-off-line and on-line computation of power and PQ electrical parameters.
+ - Guide user interface (GUI) that hosts a control and data acquisition module optimized to operate with different hardware platforms.
+ - Data processing module that allows to interact with the calculation scripts using the [Matlab](https://uk.mathworks.com/products/matlab.html) engine for off-line computation or through the [Advanced Analysis Libraries](http://zone.ni.com/reference/en-XX/help/370051AC-01/cvi/libref/cviadvanced_analysis_library_functi/)of the development environment for
+on-line computation of power and PQ electrical parameters.
 
 TPQA handles the following digitizers using suitable drivers as:
 
