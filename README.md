@@ -42,6 +42,6 @@ The project is still under development. The current version includes the guide u
 Here you can download build only:
 
 ## License
-The TPQA is distributed under [MIT license](./LICENSE.md). Note the algorithms in the QWTB toolbox may have different licenses.
+The TPQA is distributed under [MIT license](TPQA/LICENSE.md/LICENSE.md). Note the algorithms in the QWTB toolbox may have different licenses.
 
 
