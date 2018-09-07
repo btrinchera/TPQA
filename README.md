@@ -25,7 +25,7 @@ TPQA handles the following digitizers using suitable drivers as:
 The off-line calculation of elecytrical Power and PQ parameters is performed by the [QWTB](https://qwtb.github.io/qwtb/)
 toolbox. A list of supported algorithms can be found in the [report A2.4.4 - Algorithms Description](https://github.com/smaslan/TWM/blob/master/doc/A244%20Algorithms%20description.pdf).
 
-The project is still under development. The current version includes the guide user interfaces (GUIs) trought which one can beging to gain experience with high performnce digitizers and waveform sampling. The follwing actions csan be performed:
+The project is still under development. The current version includes the guide user interfaces (GUIs) trought which one can beging to gain experience with high performnce digitizers and waveform sampling. The following actions can be performed:
 
 - In the present release it is possibile to perform single shot or continous acquisition with measurement system equiped with two PXI-5922 boards configured for pseudo-differential measurements for pure and distorted waveforms. The part related to DMMs 3458A is still under development.
 <img src="./img/GUI_HW_Control.png">
