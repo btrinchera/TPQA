@@ -30,7 +30,7 @@ The project is still under development. The current version includes the guide u
 - In the present release it is possibile to perform single shot or continous acquisition with measurement system equiped with two PXI-5922 boards configured for pseudo-differential measurements for pure and distorted waveforms. The part related to DMMs 3458A is still under development.
 <img src="./img/GUI_HW_Control.png">
 
-- Off-line data processing (only for TPQA release under LabWindows/CVI environment) using the Matlab to CVI interface based on [TWM](https://github.com/smaslan/TWM) modularity concept. 
+- Off-line data processing (only for TPQA release under LabWindows/CVI environment) employs the Matlab to CVI interface based on [TWM](https://github.com/smaslan/TWM) modularity concept. 
 <img src="./img/GUI_Matlab_CVI.png">
 
 - On-line processing of recorded data and analysis in the frequency domain using the Advanced Analysis Library provided by LabWindows/CVI. 
