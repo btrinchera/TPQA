@@ -4,11 +4,9 @@
 # TPQA-Traceable Power & Power Quality Analyzer
 
 
-TPQA is being developed at the  power and distorted signals primary laboratories of [INRIM](https://www.inrim.it/ricerca-sviluppo/laboratori-di-ricerca/metrologia-elettrica), belonging to the quantum metrology and nanotechnology division, in the framework of [EMPIR](https://msu.euramet.org/calls.html) project [TracePQM](http://tracepqm.cmi.cz/). It looks like as an open software tool project suitable for handling high performance and precise state-of-the-art digitizing system identified for
-building of metrology grade measurement system to ensure reliable and traceable measurement of Power and Power Quality (PQ) complex parameters. Its use is not only restricted to power and energy area, but it can be used in experiments which require simultaneous measurement of complex voltage and current waveforms.
+TPQA is being developed at  power and distorted signals primary laboratories of [INRIM](https://www.inrim.it/ricerca-sviluppo/laboratori-di-ricerca/metrologia-elettrica), belonging to the Quantum Metrology and Nanotechnology Division, in the framework of [EMPIR](https://msu.euramet.org/calls.html) project [TracePQM](http://tracepqm.cmi.cz/). It looks like as an open software tool project used for handling high performance and precise state-of-the-art sampling system identified for building of metrology grade measurement system suitable to ensure reliable and traceable measurement of Power and Power Quality (PQ) complex parameters. Its use is not only restricted to power and energy area, but it can be used in experiments which require simultaneous measurement of complex voltage and current waveforms coming from diferent types of scaling transducers or generated from both non-quantum and quantum waveforms synthesizers.  
 
-It has been developed using an ANSI c development environment such as [LabWindows/CVI](http://www.ni.com/lwcvi/whatis/hardware/), and  its  modular
-structure is based on the following components:
+It has been developed using an ANSI c development environment such as [LabWindows/CVI](http://www.ni.com/lwcvi/whatis/hardware/), and  its  modularity is based on the following components:
 
  - Guide user interface (GUI) that hosts a control and data acquisition module optimized to operate with different hardware platforms.
  - Data processing module that allows to interact with the calculation scripts using the [Matlab](https://uk.mathworks.com/products/matlab.html) engine for off-line computation or through the [Advanced Analysis Libraries](http://zone.ni.com/reference/en-XX/help/370051AC-01/cvi/libref/cviadvanced_analysis_library_functi/) of the development environment for
