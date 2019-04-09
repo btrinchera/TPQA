@@ -9,8 +9,8 @@ TPQA is being developed at  power and distorted signals primary laboratories of 
 It has been developed using an ANSI c development environment such as [LabWindows/CVI](http://www.ni.com/lwcvi/whatis/hardware/), and  its  modularity is based on the following components:
 
  - Guide user interface (GUI) that hosts a control and data acquisition module optimized to operate with different hardware platforms.
- - Data processing module that allows to interact with the calculation scripts using the [Matlab](https://uk.mathworks.com/products/matlab.html) engine for off-line computation or through the [Advanced Analysis Libraries](http://zone.ni.com/reference/en-XX/help/370051AC-01/cvi/libref/cviadvanced_analysis_library_functi/) of the development environment for
-on-line computation of some power and PQ electrical parameters.
+ - Data processing module that allows to interact with the calculation scripts using the [Matlab](https://uk.mathworks.com/products/matlab.html) engine for post-processing or through the [Advanced Analysis Libraries](http://zone.ni.com/reference/en-XX/help/370051AC-01/cvi/libref/cviadvanced_analysis_library_functi/) of the development environment for
+on-line computation of main power and PQ electrical parameters.
 
 TPQA handles the following digitizers using suitable drivers as:
 
