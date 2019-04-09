@@ -17,7 +17,7 @@ TPQA handles the following digitizers using suitable drivers as:
  - [niScope](http://sine.ni.com/nips/cds/view/p/lang/cs/nid/12638) drivers for control of single or multiple PXI-5922 24-bit flexible resolution digitizer whose bandwidth falls within the medium frequency (MF) of radio frequency band.
  - Synchronized [HP/Agilent/Keysight3458A](https://www.keysight.com/en/pd-1000001297%3Aepsg%3Apro-pn-3458A/digital-multimeter-8-digit?cc=US&lc=eng) configured as  digitizer by making DC voltage measurements, by DCV digitizing, by direct-sampling, or by sub-sampling.
 
-The off-line calculation of elecytrical Power and PQ parameters is performed by the [QWTB](https://qwtb.github.io/qwtb/)
+The post-processing of Power and PQ parameters is performed by the [QWTB](https://qwtb.github.io/qwtb/)
 toolbox. A list of supported algorithms can be found in the following report: [Algorithms Description](https://github.com/smaslan/TWM/blob/master/doc/A244%20Algorithms%20description.pdf).
 
 The project is still under development. The current version includes the guide user interfaces (GUIs) trought which one can beging to gain experience with high performnce digitizers and waveform sampling. The following actions can be performed:
