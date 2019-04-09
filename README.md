@@ -27,7 +27,7 @@ The project is still under development. The current version includes the guide u
 <img src="./img/GUI_HW_Control.png">
 
 - Post-processing of sampled data (only for TPQA release under LabWindows/CVI environment) using the concept of Matlab to CVI interface similar to that developed for [TWM](https://github.com/smaslan/TWM). 
-<img src="./img/GUI_Matlab_CVI.png">
+<img src="./img/GUI_Matlab_All.png">
 
 - On-line processing of recorded data and analysis in the frequency domain using the Advanced Analysis Library provided by LabWindows/CVI. 
 <img src="./img/GUI_2.png">
