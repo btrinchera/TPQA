@@ -26,7 +26,7 @@ The project is still under development. The current version includes the guide u
 - Sampling waveforms using two DMMs 3458A configured as Master-Slave.
 <img src="./img/GUI_HW_Control.png">
 
-- Post-processing of sampled data (only for TPQA release under LabWindows/CVI environment) using the concept of Matlab to CVI interface similar to taht developed for [TWM](https://github.com/smaslan/TWM). 
+- Post-processing of sampled data (only for TPQA release under LabWindows/CVI environment) using the concept of Matlab to CVI interface similar to that developed for [TWM](https://github.com/smaslan/TWM). 
 <img src="./img/GUI_Matlab_CVI.png">
 
 - On-line processing of recorded data and analysis in the frequency domain using the Advanced Analysis Library provided by LabWindows/CVI. 
