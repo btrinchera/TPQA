@@ -5,7 +5,6 @@
 
 
 TPQA is being developed at  power and distorted signals primary laboratories of [INRIM](https://www.inrim.it/ricerca-sviluppo/laboratori-di-ricerca/metrologia-elettrica), belonging to the Quantum Metrology and Nanotechnology Division, in the framework of [EMPIR](https://msu.euramet.org/calls.html) project [TracePQM](http://tracepqm.cmi.cz/). It looks like as an open software tool project used for handling high performance and precise state-of-the-art sampling system identified for building of metrology grade measurement system suitable to ensure reliable and traceable measurement of Power and Power Quality (PQ) complex parameters. 
-
 Its use is not only restricted to power and energy area, but it can be used in experiments which require simultaneous measurement of complex voltage and current waveforms coming from diferent types of scaling transducers or generated from both non-quantum and quantum waveforms synthesizers.  
 
 It has been developed using an ANSI c development environment such as [LabWindows/CVI](http://www.ni.com/lwcvi/whatis/hardware/), and  its  modularity is based on the following components:
