@@ -20,12 +20,13 @@ TPQA handles the following digitizers using suitable drivers as:
 The post-processing of Power and PQ parameters is performed by the [QWTB](https://qwtb.github.io/qwtb/)
 toolbox. A list of supported algorithms can be found in the following report: [Algorithms Description](https://github.com/smaslan/TWM/blob/master/doc/A244%20Algorithms%20description.pdf).
 
-The project is still under development. The current version includes the guide user interfaces (GUIs) trought which one can beging to gain experience with high performnce digitizers and waveform sampling. The following actions can be performed:
+The project is still under development. The current version includes the guide user interfaces (GUIs) trought which one can beging to gain experience with high performance digitizers and waveform sampling. The following actions can be performed:
 
-- In the present release it is possibile to perform single shot or continous acquisition with measurement system equiped with a single or two PXI-5922 boards configured for single-ended or pseudo-differential measurements of pure and distorted waveforms. The part related to DMMs 3458A is still under development.
+- In the present release it is possibile to perform single shot or continous acquisition with measurement system equiped with a single or two PXI-5922 boards configured for single-ended or pseudo-differential measurements of pure and distorted waveforms. 
+- Sampling waveforms using two DMMs 3458A configured as Master-Slave.
 <img src="./img/GUI_HW_Control.png">
 
-- Off-lin data processing (only for TPQA release under LabWindows/CVI environment) employs the Matlab to CVI interface based on [TWM](https://github.com/smaslan/TWM) modularity concept. 
+- Post-processing of sampled data (only for TPQA release under LabWindows/CVI environment) using the concept of Matlab to CVI interface similar to taht developed for [TWM](https://github.com/smaslan/TWM). 
 <img src="./img/GUI_Matlab_CVI.png">
 
 - On-line processing of recorded data and analysis in the frequency domain using the Advanced Analysis Library provided by LabWindows/CVI. 
