@@ -1,6 +1,6 @@
 TPQA:
 
-This is TPQA - TracePQM Power & PQ Analyzer - part of EMPIR project TracePQM.
+This is TPQA - Traceable Power & PQ Analyzer - part of EMPIR project TracePQM.
 Details on the project can be found on the www:
 
 http://tracepqm.cmi.cz/
