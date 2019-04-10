@@ -1,0 +1,48 @@
+[csv_parse]
+Class="Function"
+Prototype="int csv_parse(char *csv, char col_sep, char row_sep, int *rows, int *cols, char **cells);"
+
+[create_fld_chain]
+Class="Function"
+Prototype="int create_fld_chain(char *path, int is_folder);"
+
+[merge_path]
+Class="Function"
+Prototype="char *merge_path(char *dest, char *folder, char *file);"
+
+[info_write_text_column]
+Class="Function"
+Prototype="int info_write_text_column(FILE *fw, char *name, char (*str)[1024], int rows);"
+
+[info_write_int_column]
+Class="Function"
+Prototype="int info_write_int_column(FILE *fw, char *name, int *value, int rows);"
+
+[info_write_dbl_column]
+Class="Function"
+Prototype="int info_write_dbl_column(FILE *fw, char *name, double *value, int rows);"
+
+[info_write_dbl_matrix]
+Class="Function"
+Prototype="int info_write_dbl_matrix(FILE *fw, char *name, double *value, int rows, int cols, int cols_total);"
+
+[info_write_dbl_row]
+Class="Function"
+Prototype="int info_write_dbl_row(FILE *fw, char *name, double *val, int cols);"
+
+[info_write_int]
+Class="Function"
+Prototype="int info_write_int(FILE *fw, char *name, int value);"
+
+[info_write_dbl]
+Class="Function"
+Prototype="int info_write_dbl(FILE *fw, char *name, double value);"
+
+[info_write_string]
+Class="Function"
+Prototype="int info_write_string(FILE *fw, char *name, char *value);"
+
+[info_get_int]
+Class="Function"
+Prototype="int info_get_int(char *info, char *key, int *value);"
+

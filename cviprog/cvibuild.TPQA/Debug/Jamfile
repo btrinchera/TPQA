@@ -1,0 +1,63 @@
+CCFLAGS = -g ;
+TargetFileVersion = "1.0.0.0" ;
+TargetProdVersion = "1.0.0.0" ;
+HDRS = 	"c:\\program files (x86)\\national instruments\\cvi2013\\include"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\include"
+	"C:\\ProgramData\\National Instruments\\CVI2013\\include"
+	"C:\\ProgramData\\National Instruments\\CVI\\include"
+	"c:\\program files (x86)\\national instruments\\cvi2013\\include\\ansi"
+	"c:\\program files (x86)\\national instruments\\cvi2013\\include\\clang\\2.9"
+	"C:\\Program Files (x86)\\IVI Foundation\\IVI\\Include"
+	"C:\\Program Files (x86)\\IVI Foundation\\VISA\\winnt\\include"
+	"c:\\program files (x86)\\national instruments\\cvi2013\\sdk\\include"
+	"c:\\TPQA\\TPQA_1.1.0"
+	"c:\\TPQA\\TPQA_1.1.0\\common"
+	"c:\\program files (x86)\\national instruments\\cvi2013\\toolslib\\activex\\word"
+	"c:\\program files (x86)\\national instruments\\cvi2013\\toolslib\\activex\\excel"
+	"c:\\program files (x86)\\national instruments\\cvi2013\\toolslib\\custctrl"
+	"c:\\program files (x86)\\national instruments\\cvi2013\\toolslib\\custctrl\\custsupp"
+	"c:\\program files (x86)\\national instruments\\cvi2013\\toolslib\\cvirtsup"
+	"c:\\program files (x86)\\national instruments\\cvi2013\\toolslib\\datasock"
+	"c:\\program files (x86)\\national instruments\\cvi2013\\toolslib\\daqUtil"
+	"c:\\program files (x86)\\national instruments\\cvi2013\\toolslib\\printing"
+	"c:\\program files (x86)\\national instruments\\cvi2013\\toolslib\\toolbox"
+	"c:\\program files (x86)\\national instruments\\cvi2013\\toolslib\\reportgen"
+	"c:\\program files (x86)\\national instruments\\cvi2013\\toolslib\\localui"
+	"c:\\program files (x86)\\national instruments\\cvi2013\\instr"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\toolslib\\custctrl"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\toolslib\\custctrl\\custsupp"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\instr"
+	"C:\\ProgramData\\National Instruments\\CVI2013\\instr"
+	"c:\\Program Files (x86)\\IVI Foundation\\VISA\\WinNT\\niScope"
+	"c:\\Program Files (x86)\\National Instruments\\CVI2013\\bin"
+	"c:\\ProgramData\\National Instruments\\CVI2013\\bin"
+	"c:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\Bin"
+	"c:\\Program Files (x86)\\IVI Foundation\\VISA\\WinNT\\niTClk"
+	"c:\\TPQA\\TPQA_1.1.0\\Matlab Module"
+	;
+include Jamfile_instr ;
+Object "c:\\TPQA\\TPQA_1.1.0\\cvibuild.TPQA\\Debug\\GenericMultiDeviceConfiguredAcquisitionTClk.obj" : "c:\\TPQA\\TPQA_1.1.0\\GenericMultiDeviceConfiguredAcquisitionTClk.c" ;
+PrjObjects += "c:\\TPQA\\TPQA_1.1.0\\cvibuild.TPQA\\Debug\\GenericMultiDeviceConfiguredAcquisitionTClk.obj" ;
+Object "c:\\TPQA\\TPQA_1.1.0\\cvibuild.TPQA\\Debug\\Matlab Module.obj" : "c:\\TPQA\\TPQA_1.1.0\\Matlab Module\\Matlab Module.c" ;
+PrjObjects += "c:\\TPQA\\TPQA_1.1.0\\cvibuild.TPQA\\Debug\\Matlab Module.obj" ;
+Object "c:\\TPQA\\TPQA_1.1.0\\cvibuild.TPQA\\Debug\\mlink.obj" : "c:\\TPQA\\TPQA_1.1.0\\Matlab Module\\mlink.c" ;
+PrjObjects += "c:\\TPQA\\TPQA_1.1.0\\cvibuild.TPQA\\Debug\\mlink.obj" ;
+Object "c:\\TPQA\\TPQA_1.1.0\\cvibuild.TPQA\\Debug\\processing_panel.obj" : "c:\\TPQA\\TPQA_1.1.0\\Matlab Module\\processing_panel.c" ;
+PrjObjects += "c:\\TPQA\\TPQA_1.1.0\\cvibuild.TPQA\\Debug\\processing_panel.obj" ;
+Object "c:\\TPQA\\TPQA_1.1.0\\cvibuild.TPQA\\Debug\\qwtb_alg_select.obj" : "c:\\TPQA\\TPQA_1.1.0\\Matlab Module\\qwtb_alg_select.c" ;
+PrjObjects += "c:\\TPQA\\TPQA_1.1.0\\cvibuild.TPQA\\Debug\\qwtb_alg_select.obj" ;
+Object "c:\\TPQA\\TPQA_1.1.0\\cvibuild.TPQA\\Debug\\TPQA.obj" : "c:\\TPQA\\TPQA_1.1.0\\TPQA.c" ;
+PrjObjects += "c:\\TPQA\\TPQA_1.1.0\\cvibuild.TPQA\\Debug\\TPQA.obj" ;
+Object "c:\\TPQA\\TPQA_1.1.0\\cvibuild.TPQA\\Debug\\twm_matlab.obj" : "c:\\TPQA\\TPQA_1.1.0\\Matlab Module\\twm_matlab.c" ;
+PrjObjects += "c:\\TPQA\\TPQA_1.1.0\\cvibuild.TPQA\\Debug\\twm_matlab.obj" ;
+Object "c:\\TPQA\\TPQA_1.1.0\\cvibuild.TPQA\\Debug\\utils.obj" : "c:\\TPQA\\TPQA_1.1.0\\Matlab Module\\utils.c" ;
+PrjObjects += "c:\\TPQA\\TPQA_1.1.0\\cvibuild.TPQA\\Debug\\utils.obj" ;
+Object resources.res : resources.in.rc ;
+MainFromObjects "TPQA_32bit.exe" : $(PrjObjects) $(InstrObjects) ;
+Depends "TPQA_32bit.exe" : link_options.txt ;
+Depends "TPQA_32bit.exe" : resources.res ;
+Depends resources.res :  "c:\\TPQA\\TPQA_1.1.0\\Matlab Module\\Matlab Module.uir" ;
+Depends resources.res :  "c:\\TPQA\\TPQA_1.1.0\\Matlab Module\\processing_panel.uir" ;
+Depends resources.res :  "c:\\TPQA\\TPQA_1.1.0\\Matlab Module\\qwtb_alg_select.uir" ;
+Depends resources.res :  "c:\\TPQA\\TPQA_1.1.0\\TPQA.uir" ;
+Depends all : "TPQA_32bit.exe" ;
