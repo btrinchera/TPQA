@@ -3,7 +3,6 @@
 
 # TPQA-Traceable Power & Power Quality Analyzer
 
-
 TPQA is being developed at  power and distorted signals primary laboratories of [INRIM](https://www.inrim.it/ricerca-sviluppo/laboratori-di-ricerca/metrologia-elettrica), belonging to the Quantum Metrology and Nanotechnology Division, in the framework of [EMPIR](https://msu.euramet.org/calls.html) project [TracePQM](http://tracepqm.cmi.cz/). It looks like as an open software tool project used for handling high performance and precise state-of-the-art sampling system identified for building of metrology grade measurement system suitable to ensure reliable and traceable measurement of Power and Power Quality (PQ) complex parameters. 
 
 Its use is not only restricted to power and energy area, but it can be used in experiments which require simultaneous measurement of complex voltage and current waveforms coming from diferent types of scaling transducers or generated from both non-quantum and quantum waveform synthesizers.  
@@ -22,7 +21,10 @@ TPQA handles the following digitizers using suitable drivers as:
 The post-processing of Power and PQ parameters is performed by the [QWTB](https://qwtb.github.io/qwtb/)
 toolbox. A list of supported algorithms can be found in the following report: [Algorithms Description](https://github.com/smaslan/TWM/blob/master/doc/A244%20Algorithms%20description.pdf).
 
-The project is still under development. The current version includes the guide user interfaces (GUIs) trought which one can beging to gain experience with high performance digitizers and waveform sampling. The following actions can be performed:
+
+## STATUS
+
+The project is still under development. The current version includes the guide user interfaces (GUIs) trought which the user can beging to gain experience with high performance digitizers and waveform sampling. The following actions can be performed:
 
 - In the present release it is possibile to perform single shot or continous acquisition with measurement system equiped with a single or two PXI-5922 boards configured for single-ended or pseudo-differential measurements of pure and distorted waveforms. 
 - Sampling waveforms using two DMMs 3458A configured as Master-Slave.
@@ -33,6 +35,16 @@ The project is still under development. The current version includes the guide u
 
 - On-line processing of recorded data and analysis in the frequency domain using the Advanced Analysis Library provided by LabWindows/CVI. 
 <img src="./img/GUI_2.png">
+
+
+
+## NEWS
+
+Important changes and news:
+- 2019-04-10: First public release, which inludes:
+  - Improved GUI, for control and data acquisition using both NI-PXI5922 and DMMs digitizers.
+  - Matlab support and GUI for post-processing of sampled data coming from NI-PXI5922 digitizers.
+  - CVI support and GUI for on-line data processing of sampled data coming from NI-PXI5922 and DMMs digitizers. 
 
 
 ## Download
