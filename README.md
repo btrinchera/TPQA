@@ -39,7 +39,7 @@ The project is still under development. The current version includes the guide u
 
 Here you can download build only:
 
-- [Current build: TPQA-V1.1.0.0 (support NI5922, 3458A, 2019.04.09 (Zip file)](builds/TPQA-1.1.0.0.zip)
+- [Current build: TPQA-V1.1.0.0 (support NI5922, 3458A, 2019.04.09 (Zip file)](./builds/TPQA_1.1.0.zip)
 
 ## License
 The TPQA is distributed under [MIT license](./LICENSE.md/LICENSE.md). Note the algorithms in the QWTB toolbox may have different licenses.
