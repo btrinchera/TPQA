@@ -22,6 +22,8 @@ The post-processing of Power and PQ parameters is performed by the [QWTB](https:
 toolbox. A list of supported algorithms can be found in the following report: [Algorithms Description](https://github.com/smaslan/TWM/blob/master/doc/A244%20Algorithms%20description.pdf).
 
 
+
+
 ## STATUS
 
 The project is still under development. The current version includes the guide user interfaces (GUIs) trought which the user can beging to gain experience with high performance digitizers and waveform sampling. The following actions can be performed:
@@ -38,6 +40,7 @@ The project is still under development. The current version includes the guide u
 
 
 
+
 ## NEWS
 
 Important changes and news:
@@ -47,11 +50,13 @@ Important changes and news:
   - CVI support and GUI for on-line data processing of sampled data coming from NI-PXI5922 and DMMs digitizers. 
 
 
+
 ## Download
 
 Here you can download build only:
 
 - [Current build: TPQA-V1.1.0.0 (support NI5922, 3458A, 2019.04.09 (Zip file)](./builds/TPQA_1.1.0.zip)
+
 
 ## License
 The TPQA is distributed under [MIT license](./LICENSE.md/LICENSE.md). Note the algorithms in the QWTB toolbox may have different licenses.
