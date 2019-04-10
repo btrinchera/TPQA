@@ -45,7 +45,7 @@ The project is still under development. The current version includes the guide u
 
 Important changes and news:
 - 2019-04-10: First public release, which inludes:
-  - Improved GUI, for control and data acquisition using both NI-PXI5922 and DMMs digitizers.
+  - Improved GUIs, for control and data acquisition of NI-PXI5922 and DMMs digitizers.
   - Matlab support and GUI for post-processing of sampled data coming from NI-PXI5922 digitizers.
   - CVI support and GUI for on-line data processing of sampled data coming from NI-PXI5922 and DMMs digitizers. 
 
